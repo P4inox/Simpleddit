@@ -46,13 +46,13 @@ if (isset($reddit)) {  // Check if user logged in through oauth
   <link rel="image_src" href="images/logo.png">
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
   <!-- STYLESHEETS -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <!-- JAVASCRIPT -->
   <script src="lib/handlebars-v2.0.0.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script src="lib/bootstrap-typeahead.js"></script>
 </head>
 <body>

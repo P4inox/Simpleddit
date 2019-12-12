@@ -307,7 +307,7 @@ function getStory(sub,id) // Get story details
     $.getJSON(requestUrl, function(data)
     {
         ClearRightSide();
-        setStoryHeader("<a target='_blank' href='http://www.reddit.com/"+url+"'>"+url+"</a>");
+        setStoryHeader("<a target='_blank' href='https://www.reddit.com/"+url+"'>"+url+"</a>");
 
         $.each(data,function(index,element)
         { 

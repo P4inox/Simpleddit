@@ -114,7 +114,7 @@ Handlebars.registerHelper("picHelper", function (data)
     else if (data.domain.indexOf("youtube") != -1 || data.domain.indexOf("youtu.be") != -1) // if it's a youtube link
     {
         var id = getYoutubeId(data.url);
-        var youtubeEmbed = "<div id='storyimage' " + hidden + "><iframe width='560' height='315' src='http://www.youtube.com/embed/"+id[1]+"' frameborder='0' allowfullscreen></iframe></div>";
+        var youtubeEmbed = "<div id='storyimage' " + hidden + "><iframe width='560' height='315' src='https://www.youtube.com/embed/"+id[1]+"' frameborder='0' allowfullscreen></iframe></div>";
         return prefixEmbed + youtubeEmbed;
     }
     else // if it's not gif or video
@@ -135,7 +135,7 @@ Handlebars.registerHelper("picHelper", function (data)
                         $.each(data.data.images,function(index,element)
                         { 
                             console.log(element.id);
-                            $("#albumthumbs").append("<a target='_blank' href='http://imgur.com/"+element.id+"'><img class='albumthumb' src='http://imgur.com/"+element.id+"b.jpg' /></a>");
+                            $("#albumthumbs").append("<a target='_blank' href='https://imgur.com/"+element.id+"'><img class='albumthumb' src='https://imgur.com/"+element.id+"b.jpg' /></a>");
                         });
                     },
                     error: function(data)

@@ -108,7 +108,7 @@ $(document).keyup(function(e) {   // Keyboard navigation
 $(document).on("click", "#logout", function() // Logout
 {     
     eraseCookie("reddit_token");
-    window.location.href = "http://simpleddit.com";
+    window.location.href = "https://jsalzmann.com/reddit";
 });
 
 $(document).on("click", "#options-button", function() // Show options
