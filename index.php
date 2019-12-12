@@ -39,7 +39,7 @@ if (isset($reddit)) {  // Check if user logged in through oauth
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Simpleddit: a simple reddit browser</title>
+  <title>Reddit</title>
   <link id="favicon" rel="shortcut icon" type="image/png" href="" />
   <meta name="description" content="Simpleddit is a simple and efficient way of browsing reddit using a two-column layout.">
   <meta name="keywords" content="simpleddit,simple,reddit,work,discreet,efficient,columns">
@@ -63,9 +63,9 @@ if (isset($reddit)) {  // Check if user logged in through oauth
         <form id="form-sub" role="form">
           <div id="logo" class="hidden-xs col-sm-2 text-center" tabindex="1">
             <?php if ($logged_in == 1) { ?>
-              <a href="/?oa=1">Simpleddit</a>
+              <a href="/reddit?oa=1">Reddit</a>
             <?php } else { ?>
-              <a href="/">Simpleddit</a>
+              <a href="/reddit/">Reddit</a>
             <?php } ?>
           </div>
           <div id="logo-filler" class="col-xs-2 text-center" style="display: none;">
@@ -157,8 +157,8 @@ if (isset($reddit)) {  // Check if user logged in through oauth
           <br />
           <label>Site theme:</label>
           <select id="select-theme" class="form-control">
-              <option value="">Light Theme</option>
               <option value="dark">Dark Theme</option>
+              <option value="">Light Theme</option>
           </select><br />
           <label>Left column size (Large is default):</label>
           <select id="column-size" class="form-control">
@@ -297,16 +297,3 @@ defsubs = <?php echo('"' . $defsubs . '"'); ?>;
 <script src="handlebars_helpers.js"></script>
 
 <script src="lib/cookies.js"></script>
-
-<!-- Google Analytics -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-58991641-1', 'auto');
-  ga('send', 'pageview');
-
-</script>

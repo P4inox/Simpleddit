@@ -57,17 +57,17 @@ h4, #topnav, #topnav a, .story-title, #showimage
 
 .comment small, .comment .glyphicon, .story-title small, .entries small
 {
-	color: #53776F;
+	color: rgb(96, 155, 141);
 }
 
 #rightcolumn a
 {
-	color: #94963A;
+	color: rgb(58, 113, 150);
 }
 
 .author
 {
-	color: #83C3B5;
+	color: rgb(97, 187, 89);
 }
 
 .form-control

@@ -45,7 +45,7 @@ function init()
     if(readCookie("theme") == "dark")
     {
         $('<link/>', {rel: 'stylesheet', href: 'themes/dark.css', id: 'theme-style'}).appendTo('head');
-        $("#select-theme>option:eq(1)").attr("selected", true);
+        $("#select-theme>option:eq(0)").attr("selected", true);
     }
 
     if(readCookie("showLogo") == "0")
